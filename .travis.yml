@@ -1,6 +1,11 @@
 language: python
 sudo: false
 
+os:
+  - linux
+  - osx
+  - windows
+
 env:
   - LUA="lua=5.1"
   - LUA="lua=5.2"
